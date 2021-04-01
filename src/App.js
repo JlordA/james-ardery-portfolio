@@ -16,9 +16,9 @@ function App() {
       <Switch>
         <Route path='/welcome' component={Welcome}/>
         <Route path='/bio' component={Bio}/>
-        <Route path='/tech' render={Tech}/>
-        <Route path='/art' render={Art}/>
-        <Route path='/music' render={Music}/>
+        <Route path='/tech' component={Tech}/>
+        <Route path='/art' component={Art}/>
+        <Route path='/music' component={Music}/>
       </Switch>
     </>
   );
