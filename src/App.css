@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+
+.welcome-div{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #dabb40;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  box-shadow: 10px 10px 5px grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  list-style-type: none;
+  padding-top: 10px;
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d6a9a9;
+  box-shadow: 2px 2px 5px grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-button{
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  background-color: rgb(136, 103, 12);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 10px;
+  display: block;
+  color: #f7eea0;
+  box-shadow: 2px 2px 5px grey;
+}
+.nav-button:active{
+  color: aqua;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-button:hover{
+  background-color: #3a3208;
+}
+
+.bio-div{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16pt;
+  color: #f0f8ff;
+  background-color: cadetblue;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 10px;
+}
+
+.turtle-div{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.portrait-div{
+  max-height: 600px;
+  margin-top: 40px;
+  margin-left: 100px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 10px;
+
+}
+
+.bio-component{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.tech-div{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-img{
+  max-width: 45%;
+  margin-top: 30px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 10px;
 }
