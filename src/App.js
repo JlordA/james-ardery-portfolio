@@ -5,7 +5,7 @@ import { Route, Switch } from 'react-router-dom'
 import Bio from "./Components/Bio";
 import Tech from './Components/Tech'
 import Music from './Components/Music'
-import Art from './Components/Art'
+import ContactForm from "./Components/ContactForm";
 
 
 
@@ -17,8 +17,8 @@ function App() {
         <Route path='/welcome' component={Welcome}/>
         <Route path='/bio' component={Bio}/>
         <Route path='/tech' component={Tech}/>
-        <Route path='/art' component={Art}/>
         <Route path='/music' component={Music}/>
+        <Route path='/contactform' component={ContactForm}/>
       </Switch>
     </>
   );

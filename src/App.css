@@ -90,3 +90,29 @@
   box-shadow: 5px 5px 5px grey;
   border-radius: 10px;
 }
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  border: solid 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.form-button{
+  background-color: #b69e28;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.form-label{
+  margin-top: 20px;
+}
+
+
+

@@ -12,8 +12,8 @@ function Navbar() {
       <NavLink to={"/music"}>
         <li className="nav-button">MUSIC</li>
       </NavLink>
-      <NavLink to={"/art"}>
-        <li className="nav-button">ART</li>
+      <NavLink to={"/contactform"}>
+        <li className="nav-button">CONTACT</li>
       </NavLink>
       <NavLink to={"/welcome"} >
         <li style={{ float: "right", marginRight: "100px" }}className="nav-button">HOME</li>
