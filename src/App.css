@@ -117,7 +117,7 @@
 .modalBackground{
   opacity: 0;
   pointer-events: none;
-  transition: opactity 0.4s ease-in-out;
+  transition: opactity 0.7s ease-in-out;
   position: absolute;
   left: 0;
   right: 0;
