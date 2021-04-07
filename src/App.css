@@ -10,6 +10,12 @@
   box-shadow: 10px 10px 5px grey;
 }
 
+.turtle-div{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+/* //// NAV BAR STYLING //// */
 .navbar{
   list-style-type: none;
   padding-top: 10px;
@@ -43,6 +49,7 @@
   background-color: #3a3208;
 }
 
+/* //// BIO STYLING //// */
 .bio-div{
   margin-left: 100px;
   margin-right: 100px;
@@ -59,18 +66,12 @@
   border-radius: 10px;
 }
 
-.turtle-div{
-  margin-top: 100px;
-  margin-left: 200px;
-}
-
 .portrait-div{
   max-height: 600px;
   margin-top: 40px;
   margin-left: 100px;
   box-shadow: 5px 5px 5px grey;
   border-radius: 10px;
-
 }
 
 .bio-component{
@@ -78,6 +79,7 @@
   justify-content: space-between;
 }
 
+/* //// TECH STYLING //// */
 .tech-div{
   display: flex;
   justify-content: space-around;
@@ -90,6 +92,8 @@
   box-shadow: 5px 5px 5px grey;
   border-radius: 10px;
 }
+
+/* //// CONTACT FORM STYLING //// */
 
 .contact-form{
   display: flex;
@@ -113,6 +117,17 @@
 .form-label{
   margin-top: 20px;
 }
+
+/* //// MUSIC STYLING //// */
+.music-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/* //// MODAL STYLING //// */
 
 .modalBackground{
   opacity: 0;
