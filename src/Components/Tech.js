@@ -9,7 +9,7 @@ function Tech() {
   const [pettoModalState, setPettoModalState] = useState(false)
   const [jokeModalState, setJokeModalState] = useState(false)
 
-  const toggleRollorHeroModal = (e) => {
+  const toggleRollorHeroModal = () => {
     setRollModalState(!rollModalState)
   }
 
@@ -33,7 +33,7 @@ function Tech() {
             <div className={`modalBackground modalShowing-${jokeModalState}`}>
               <JokesOnUsModal toggleState={toggleJokeModal}/>
             </div>
-            <img onClick={() => toggleRollorHeroModal()} className="app-img" src="image/rollorhero.png" alt="rollorhero"/>
+            <img onClick={() => toggleRollorHeroModal()} value={rollModalState} className="app-img" src="image/rollorhero.png" alt="rollorhero"/>
             <img onClick={() => togglePettoModal()} className="app-img" src="image/petto.png" alt="petto"/>
             <img onClick={() => toggleJokeModal()} className="app-img" src="image/JokesonUs.png" alt="jokesonus"/>
           </div>

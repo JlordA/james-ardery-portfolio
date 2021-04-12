@@ -30,7 +30,7 @@ function ContactForm() {
       <input type="email" name="user_email" />
       <label className="form-label">Message</label>
       <textarea style={{ width: '400px', height: '100px'}} name="message" />
-      <input className="form-button" type="submit" value="Send" />
+      <input className="form-button" type="submit" value="SEND" />
     </form>
   );
 }

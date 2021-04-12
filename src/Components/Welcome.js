@@ -1,7 +1,7 @@
 function Welcome() {
   return (
-    <>
     <div className="welcome-div">
+    <div className="welcome-text">
       <h1 style={{ fontFamily: "Josefin Sans", fontSize: 24 }}>
         JAMES ARDERY'S PORTFOLIO
       </h1>
@@ -9,11 +9,16 @@ function Welcome() {
     </div>
     <div className="turtle-div">
         <img src="image/bioturtle.gif" alt="bioturtle"/>
+        <img src="image/bioturtle.gif" alt="bioturtle"/>
+        <img src="image/bioturtle.gif" alt="bioturtle"/>
+        <img src="image/bioturtle.gif" alt="bioturtle"/>
+        <img src="image/bioturtle.gif" alt="bioturtle"/>
+        <img src="image/bioturtle.gif" alt="bioturtle"/>
+        <img src="image/bioturtle.gif" alt="bioturtle"/>
+        <img src="image/bioturtle.gif" alt="bioturtle"/>
+        <img src="image/bioturtle.gif" alt="bioturtle"/>
     </div>
-    <div>
-
     </div>
-    </>
   );
 }
 
