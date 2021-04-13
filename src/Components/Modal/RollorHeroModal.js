@@ -26,7 +26,7 @@ function RollorHeroModal(props) {
         <form action="https://jlorda.github.io/petto_frontend/">
           <input className="modalButton" type="submit" value="Visit the Site" />
         </form>
-        <button onClick={clickHandler}>Exit</button>
+        <button className="modal-exit" onClick={clickHandler}>X</button>
       </div>
     </div>
   );

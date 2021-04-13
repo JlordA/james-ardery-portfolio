@@ -32,6 +32,8 @@
 
 .nav-text {
   color: #505050;
+  font-family: "Josefin Sans", sans-serif;
+
 }
 .nav-bar {
   align-items: left;
@@ -119,7 +121,7 @@
 /* //// CONTACT FORM //// */
 
 .contact-div {
-  max-height: 100%;
+  max-height: 80%;
   max-width: 100%;
 }
 
@@ -127,9 +129,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 80vh;
   width: 70vw;
   font-family: "Josefin Sans", sans-serif;
-  margin-top: 50px;
+  margin-top: 7%;
   border: solid 2px;
   margin-left: 10%;
   margin-right: 10%;
@@ -174,12 +177,27 @@
 /* //// TECH STYLING //// */
 .tech-div {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.tech-text{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14pt;
+  color: #505050;
+}
+
+.tech-projects{
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .app-img {
-  max-width: 45%;
+  width: 35vw;
+  height: 40vh;
   margin-top: 30px;
   box-shadow: 5px 5px 5px grey;
   border-radius: 10px;
@@ -208,6 +226,10 @@
 }
 
 .modalInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: #1e2939;
   width: 900px;
   max-width: calc(100% - 60px);
@@ -237,4 +259,8 @@
   font-size: 14px;
   background: rgb(218, 203, 123);
   border: none;
+}
+
+.modal-exit{
+  position: absolute; top:0; right:0;
 }
