@@ -22,16 +22,18 @@ function ContactForm() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
-      <label className="form-label">Name</label>
-      <input style={{ width: '150px'}} type="text" name="user_name" />
-      <label className="form-label">Email</label>
-      <input type="email" name="user_email" />
-      <label className="form-label">Message</label>
-      <textarea style={{ width: '400px', height: '100px'}} name="message" />
-      <input className="form-button" type="submit" value="SEND" />
-    </form>
+    <div className="contact-div">
+      <form className="contact-form" onSubmit={sendEmail}>
+        <input type="hidden" name="contact_number" />
+        <label className="form-label">Name</label>
+        <input style={{ width: "150px" }} type="text" name="user_name" />
+        <label className="form-label">Email</label>
+        <input type="email" name="user_email" />
+        <label className="form-label">Message</label>
+        <textarea style={{ width: "400px", height: "100px" }} name="message" />
+        <input className="form-button" type="submit" value="SEND" />
+      </form>
+    </div>
   );
 }
 

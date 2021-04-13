@@ -11,8 +11,10 @@ import ContactForm from "./Components/ContactForm";
 
 function App() {
   return (
-    <>
+    <div className="app-div">
+      <div className="navbar-div"></div>
       <Navbar/>
+      <div className="tab-div">
       <Switch>
         <Route path='/welcome' component={Welcome}/>
         <Route path='/bio' component={Bio}/>
@@ -20,7 +22,8 @@ function App() {
         <Route path='/music' component={Music}/>
         <Route path='/contactform' component={ContactForm}/>
       </Switch>
-    </>
+      </div>
+    </div>
   );
 }
 
