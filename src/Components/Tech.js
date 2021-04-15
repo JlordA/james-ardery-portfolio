@@ -35,6 +35,7 @@ function Tech() {
         <div className={`modalBackground modalShowing-${jokeModalState}`}>
           <JokesOnUsModal toggleState={toggleJokeModal} />
         </div>
+        <div>
         <img
           onClick={() => toggleRollorHeroModal()}
           value={rollModalState}
@@ -42,18 +43,26 @@ function Tech() {
           src="image/rollorhero.png"
           alt="rollorhero"
         />
+        <p>Roll or Hero - React, Redux, Rails</p>
+        </div>
+        <div>
         <img
           onClick={() => togglePettoModal()}
           className="app-img"
           src="image/petto.png"
           alt="petto"
         />
+        <p>Petto - JavaScript, Rails</p>
+        </div>
+        <div>
         <img
           onClick={() => toggleJokeModal()}
           className="app-img"
           src="image/JokesonUs.png"
           alt="jokesonus"
         />
+        <p>Jokes On Us - Rails</p>
+        </div>
       </div>
     </div>
   );
