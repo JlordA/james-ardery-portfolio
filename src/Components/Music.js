@@ -3,7 +3,7 @@ function Music() {
     <div className="music-div">
       <div className="music-text">
         <h1>Hello Music</h1>
-        <p>
+        <p style={{color: 'grey'}}>
           James Ardery (b. 1984) is a composer and sometimes-visual artist whose
           work focuses on behavioral repetition and its trappings and freedoms.
           Percussion, feedback, electronic synthesis, tape loops, and guitar are
@@ -14,7 +14,7 @@ function Music() {
           length releases on the Los Angles based label Felte Records. All music
           since 20016 has been slowly release under the name Cowboy Turns.
         </p>
-        <p>
+        <p style={{color: 'grey'}}>
           In addition to Lushes he worked as a curator for music venues in
           Manhattan as well as the fertile Brooklyn DIY scene. In 2010 Ardery
           co-founded the semi-annual music festival{" "}
@@ -25,7 +25,7 @@ function Music() {
           Anthony Braxton, Jana Rush, and $hit and $hine. In 2019 the Festival
           celebrated its 8th birthday.
         </p>
-        <p>
+        <p style={{color: 'grey'}}>
           Over the summer of 2017 Ardery was an artist in residence with the
           Rare Air neon gallery located on Governors Island NYC. During the
           residency Ardery produced the album "The Magic Roundabout" (Cowboy

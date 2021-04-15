@@ -23,7 +23,7 @@ function RollorHeroModal(props) {
           app utilizes the Google Maps Javascript and Google Places API. Redux
           is used for state management.  The backend API is built with Ruby on Rails.
         </p>
-        <form action="https://jlorda.github.io/petto_frontend/">
+        <form action="https://rollorhero.netlify.app/">
           <input className="modalButton" type="submit" value="Visit the Site" />
         </form>
         <button className="modal-exit" onClick={clickHandler}>X</button>

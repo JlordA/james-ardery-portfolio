@@ -23,6 +23,7 @@ function ContactForm() {
 
   return (
     <div className="contact-div">
+      <h1>Hello You</h1>
       <form className="contact-form" onSubmit={sendEmail}>
         <input type="hidden" name="contact_number" />
         <label className="form-label">Name</label>

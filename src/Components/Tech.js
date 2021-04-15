@@ -25,7 +25,7 @@ function Tech() {
       <div className="tech-text">
         <h1>RECENT PROJECTS</h1>
       </div>
-      <div className="tech-projects">
+      <div className="tech-modal-div">
         <div className={`modalBackground modalShowing-${rollModalState}`}>
           <RollorHeroModal toggleState={toggleRollorHeroModal} />
         </div>
@@ -35,33 +35,41 @@ function Tech() {
         <div className={`modalBackground modalShowing-${jokeModalState}`}>
           <JokesOnUsModal toggleState={toggleJokeModal} />
         </div>
-        <div>
-        <img
-          onClick={() => toggleRollorHeroModal()}
-          value={rollModalState}
-          className="app-img"
-          src="image/rollorhero.png"
-          alt="rollorhero"
-        />
-        <p>Roll or Hero - React, Redux, Rails</p>
-        </div>
-        <div>
-        <img
-          onClick={() => togglePettoModal()}
-          className="app-img"
-          src="image/petto.png"
-          alt="petto"
-        />
-        <p>Petto - JavaScript, Rails</p>
-        </div>
-        <div>
-        <img
-          onClick={() => toggleJokeModal()}
-          className="app-img"
-          src="image/JokesonUs.png"
-          alt="jokesonus"
-        />
-        <p>Jokes On Us - Rails</p>
+        <div className="app-img-div">
+          <div style={{ maxWidth: 550}}>
+            <img
+              onClick={() => toggleRollorHeroModal()}
+              value={rollModalState}
+              className="app-img"
+              src="image/rollorhero.png"
+              alt="rollorhero"
+            />
+            <p style={{ color: "grey", fontStyle: "italic" }}>
+              Roll or Hero - React, Redux, Rails
+            </p>
+          </div>
+          <div style={{ maxWidth: 550}}>
+            <img
+              onClick={() => togglePettoModal()}
+              className="app-img"
+              src="image/petto.png"
+              alt="petto"
+            />
+            <p style={{ color: "grey", fontStyle: "italic" }}>
+              Petto - JavaScript, Rails
+            </p>
+          </div>
+          <div style={{ maxWidth: 550}}>
+            <img
+              onClick={() => toggleJokeModal()}
+              className="app-img"
+              src="image/JokesonUs.png"
+              alt="jokesonus"
+            />
+            <p style={{ color: "grey", fontStyle: "italic" }}>
+              Jokes On Us - Rails
+            </p>
+          </div>
         </div>
       </div>
     </div>

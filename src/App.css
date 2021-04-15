@@ -66,7 +66,7 @@
 }
 
 .network-div img {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 /* //// WECOME //// */
@@ -117,15 +117,13 @@
   font-size: 16pt;
   color: #505050;
   text-align: center;
-  background-color: #d6a9a9;
-  box-shadow: 5px 5px 5px grey;
-  border-radius: 10px;
 }
 
 .bio-img {
-  max-height: 600px;
   margin-top: 40px;
   margin-left: 100px;
+  max-width: 100%;
+  height: auto;
   box-shadow: 5px 5px 5px grey;
   border-radius: 10px;
 }
@@ -141,6 +139,7 @@
 .contact-div {
   max-height: 80%;
   max-width: 100%;
+  text-align: center;
 }
 
 .contact-form {
@@ -150,7 +149,7 @@
   height: 80vh;
   width: 70vw;
   font-family: "Josefin Sans", sans-serif;
-  margin-top: 7%;
+  margin-top: 5%;
   border: solid 2px;
   margin-left: 10%;
   margin-right: 10%;
@@ -198,8 +197,8 @@
 /* //// TECH STYLING //// */
 .tech-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -212,15 +211,21 @@
 
 }
 
-.tech-projects{
+.tech-modal-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.app-img-div{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .app-img {
-  width: 35vw;
-  height: 40vh;
+  max-width: 100%;
+  height: auto;
   box-shadow: 5px 5px 5px grey;
   border-radius: 10px;
 }

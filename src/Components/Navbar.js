@@ -14,7 +14,7 @@ function Navbar() {
           <li className="nav-button">HOME</li>
         </NavLink>
         <NavLink to={"/tech"}>
-          <li className="nav-button">TECH</li>
+          <li className="nav-button">PORTFOLIO</li>
         </NavLink>
         <NavLink to={"/bio"}>
           <li className="nav-button">BIO</li>

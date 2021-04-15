@@ -2,7 +2,8 @@ function Welcome() {
   return (
     <div className="welcome-div">
       <div className="welcome-text">
-        <h4>
+        <h1>Hello World!</h1>
+        <h4 style={{color: 'grey'}}>
           Welcome to my website. I am a budding software engineer and musician
           trying to find the tie that binds 🤔
         </h4>
