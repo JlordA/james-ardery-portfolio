@@ -4,28 +4,26 @@ function Navbar() {
   return (
     <div className="nav-div">
       <div className="nav-text">
-        <h1 style={{ fontSize: 26 }}>
-          JAMES ARDERY
-        </h1>
+        <h1 style={{ fontSize: 26 }}>JAMES ARDERY</h1>
         <p style={{ fontSize: 20 }}>Full Stack Developer</p>
       </div>
-      <ul className="nav-bar">
-        <NavLink to={"/welcome"}>
-          <li className="nav-button">HOME</li>
-        </NavLink>
-        <NavLink to={"/tech"}>
-          <li className="nav-button">PORTFOLIO</li>
-        </NavLink>
-        <NavLink to={"/bio"}>
-          <li className="nav-button">BIO</li>
-        </NavLink>
-        <NavLink to={"/music"}>
-          <li className="nav-button">MUSIC</li>
-        </NavLink>
-        <NavLink to={"/contactform"}>
-          <li className="nav-button">CONTACT</li>
-        </NavLink>
-      </ul>
+      <div className="nav-bar">
+          <NavLink to={"/welcome"}>
+            <button className="nav-button">HOME</button>
+          </NavLink>
+          <NavLink to={"/tech"}>
+            <button className="nav-button">PORTFOLIO</button>
+          </NavLink>
+          <NavLink to={"/bio"}>
+            <button className="nav-button">BIO</button>
+          </NavLink>
+          <NavLink to={"/music"}>
+            <button className="nav-button">MUSIC</button>
+          </NavLink>
+          <NavLink to={"/contactform"}>
+            <button className="nav-button">CONTACT</button>
+          </NavLink>
+      </div>
       <div className="network-div">
         <a href="https://github.com/JlordA">
           <img

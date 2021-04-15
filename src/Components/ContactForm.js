@@ -23,15 +23,14 @@ function ContactForm() {
 
   return (
     <div className="contact-div">
-      <h1>Hello You</h1>
+      <h1 style={{ color: "grey"}}>Hello You!</h1>
       <form className="contact-form" onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label className="form-label">Name</label>
+        <label className="contact-label">Name</label>
         <input style={{ width: "150px" }} type="text" name="user_name" />
-        <label className="form-label">Email</label>
+        <label className="contact-label">Email</label>
         <input type="email" name="user_email" />
-        <label className="form-label">Message</label>
-        <textarea style={{ width: "400px", height: "100px" }} name="message" />
+        <label className="contact-label">Message</label>
+        <textarea style={{ width: "600px", height: "600px" }} name="message" />
         <input className="form-button" type="submit" value="SEND" />
       </form>
     </div>

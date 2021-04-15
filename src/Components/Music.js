@@ -2,7 +2,7 @@ function Music() {
   return (
     <div className="music-div">
       <div className="music-text">
-        <h1>Hello Music</h1>
+        <h1>Hello Music!</h1>
         <p style={{color: 'grey'}}>
           James Ardery (b. 1984) is a composer and sometimes-visual artist whose
           work focuses on behavioral repetition and its trappings and freedoms.
