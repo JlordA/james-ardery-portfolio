@@ -23,7 +23,6 @@ function Bio() {
           section. If you like anything you see here or just want to chat
           contact me!
         </p>
-        <button>Random Things I Like</button>
       </div>
     </div>
   );

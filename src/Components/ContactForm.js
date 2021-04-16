@@ -23,7 +23,9 @@ function ContactForm() {
 
   return (
     <div className="contact-div">
-      <h1 style={{ color: "grey"}}>Hello You!</h1>
+      <div className="contact-text">
+        <h1 style={{ color: "grey" }}>Hello You!</h1>
+      </div>
       <form className="contact-form" onSubmit={sendEmail}>
         <label className="contact-label">Name</label>
         <input style={{ width: "150px" }} type="text" name="user_name" />

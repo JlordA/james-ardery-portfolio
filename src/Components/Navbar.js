@@ -8,7 +8,7 @@ function Navbar() {
         <p style={{ fontSize: 20 }}>Full Stack Developer</p>
       </div>
       <div className="nav-bar">
-          <NavLink to={"/welcome"}>
+          <NavLink to={"/"}>
             <button className="nav-button">HOME</button>
           </NavLink>
           <NavLink to={"/tech"}>

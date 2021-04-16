@@ -16,11 +16,11 @@ function App() {
       <Navbar/>
       <div className="tab-div">
       <Switch>
-        <Route path='/welcome' component={Welcome}/>
         <Route path='/bio' component={Bio}/>
         <Route path='/tech' component={Tech}/>
         <Route path='/music' component={Music}/>
         <Route path='/contactform' component={ContactForm}/>
+        <Route path='/' component={Welcome}/>
       </Switch>
       </div>
     </div>
