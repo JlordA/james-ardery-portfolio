@@ -24,7 +24,7 @@ function PettoModal(props) {
           backend API.
         </p>
         <form action="https://rollorhero.netlify.app/">
-          <input className="modalButton" type="submit" value="Visit the Site" />
+          <input className="modalButton" type="submit" value="Visit the Site" target="_blank" rel="noopener noreferrer"/>
         </form>
         <button className="modal-exit" onClick={clickHandler}>X</button>
       </div>

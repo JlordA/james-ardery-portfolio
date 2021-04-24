@@ -25,21 +25,21 @@ function Navbar() {
           </NavLink>
       </div>
       <div className="network-div">
-        <a href="https://github.com/JlordA">
+        <a href="https://github.com/JlordA" target="_blank" rel="noopener noreferrer">
           <img
             style={{ maxWidth: 30 }}
             src="image/githubicon.png"
             alt="github"
           />
         </a>
-        <a href="https://james-ardery.medium.com/">
+        <a href="https://james-ardery.medium.com/" target="_blank" rel="noopener noreferrer">
           <img
             style={{ maxWidth: 30 }}
             src="image/Mediumicon.png"
             alt="medium"
           />
         </a>
-        <a href="https://www.linkedin.com/in/jamesardery/">
+        <a href="https://www.linkedin.com/in/jamesardery/" target="_blank" rel="noopener noreferrer">
           <img
             style={{ maxWidth: 30 }}
             src="image/linkedinicon.png"

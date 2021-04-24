@@ -9,7 +9,7 @@ function Music() {
           Percussion, feedback, electronic synthesis, tape loops, and guitar are
           typical in his compositions. From 2010 to 2016 Ardery worked primarily
           writing and recording music in the band{" "}
-          <a href="http://www.lushes.us/">Lushes</a>. With this project he
+          <a href="http://www.lushes.us/" target="_blank" rel="noopener noreferrer">Lushes</a>. With this project he
           toured both the U.S. and Europe many times and produced two full
           length releases on the Los Angles based label Felte Records. All music
           since 20016 has been slowly release under the name Cowboy Turns.
@@ -18,7 +18,7 @@ function Music() {
           In addition to Lushes he worked as a curator for music venues in
           Manhattan as well as the fertile Brooklyn DIY scene. In 2010 Ardery
           co-founded the semi-annual music festival{" "}
-          <a href="https://en.wikipedia.org/wiki/Cropped_Out">Cropped Out</a>{" "}
+          <a href="https://en.wikipedia.org/wiki/Cropped_Out" target="_blank" rel="noopener noreferrer">Cropped Out</a>{" "}
           with childhood friend and artist Ryan Davis in his hometown of
           Louisville Kentucky. Cropped Out has hosted notable artists such as
           Sun Ra Arkestra, Susan Alcorn, Lil B, Circuit Des Yeux, Jandek,

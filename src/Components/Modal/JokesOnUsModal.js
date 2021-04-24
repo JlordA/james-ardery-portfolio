@@ -24,9 +24,6 @@ function JokesOnUsModal(props) {
           pattern for application architechture. The views are built using HTML
           and ERB with CSS for styling.
         </p>
-        {/* <form action="https://rollorhero.netlify.app/">
-          <input className="modalButton" type="submit" value="Visit the Site" />
-        </form> */}
         <button className="modal-exit" onClick={clickHandler}>X</button>
       </div>
     </div>
