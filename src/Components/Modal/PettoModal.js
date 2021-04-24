@@ -23,8 +23,8 @@ function PettoModal(props) {
           The app is built using vanilla Javascript and has a Ruby on Rails
           backend API.
         </p>
-        <form action="https://rollorhero.netlify.app/">
-          <input className="modalButton" type="submit" value="Visit the Site" target="_blank" rel="noopener noreferrer"/>
+        <form action="https://jlorda.github.io/petto_frontend/" target="_blank" rel="noopener noreferrer">
+          <input className="modalButton" type="submit" value="Visit the Site" />
         </form>
         <button className="modal-exit" onClick={clickHandler}>X</button>
       </div>
