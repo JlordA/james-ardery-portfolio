@@ -10,6 +10,7 @@
   
   .contact-text {
     text-align: center;
+    color: #505050;
   }
   
   .contact-form {
@@ -24,6 +25,15 @@
     margin-left: 10%;
     margin-right: 10%;
     background-color: #d6a9a9;
+    border-radius: 10px;
+  }
+
+  .contact-form input{
+    border-radius: 5px;
+  }
+
+  .contact-form textarea{
+    border-radius: 5px;
   }
   
   .form-button {

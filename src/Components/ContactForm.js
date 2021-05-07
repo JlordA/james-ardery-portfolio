@@ -25,7 +25,7 @@ function ContactForm() {
   return (
     <div className="contact-div">
       <div className="contact-text">
-        <h1 style={{ color: "grey" }}>Hello You!</h1>
+        <h1>Hello You!</h1>
       </div>
       <form className="contact-form" onSubmit={sendEmail}>
         <label className="contact-label">Name</label>
