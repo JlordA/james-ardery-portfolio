@@ -5,8 +5,8 @@ function Navbar() {
   return (
     <div className="nav-div">
       <div className="nav-text">
-        <h1 style={{ fontSize: 26 }}>JAMES ARDERY</h1>
-        <p style={{ fontSize: 20 }}>Full Stack Developer</p>
+        <h1>JAMES ARDERY</h1>
+        <p>Full Stack Developer</p>
       </div>
       <div className="nav-bar">
           <NavLink to={"/"}>
@@ -28,21 +28,18 @@ function Navbar() {
       <div className="network-div">
         <a href="https://github.com/JlordA" target="_blank" rel="noopener noreferrer">
           <img
-            style={{ maxWidth: 30 }}
             src="image/githubicon.png"
             alt="github"
           />
         </a>
         <a href="https://james-ardery.medium.com/" target="_blank" rel="noopener noreferrer">
           <img
-            style={{ maxWidth: 30 }}
             src="image/Mediumicon.png"
             alt="medium"
           />
         </a>
         <a href="https://www.linkedin.com/in/jamesardery/" target="_blank" rel="noopener noreferrer">
           <img
-            style={{ maxWidth: 30 }}
             src="image/linkedinicon.png"
             alt="linkedin"
           />

@@ -10,17 +10,22 @@
     color: #505050;
     text-shadow: 0.5px 0.5px white;
   }
+
+  .welcome-text p{
+    color: grey;
+  }
   
   .turtle-div {
     display: flex;
     flex-wrap: wrap;
-    width: 60vw;
+    width: 65vw;
   }
   
   .turtle-img {
     transition-duration: 700ms;
     transition: transform 700ms ease-in-out;
     border: solid 2px;
+    width: 20%;
     max-width: 100%;
     height: auto;
   }
@@ -29,4 +34,27 @@
     -webkit-filter: invert(1);
     filter: invert(1);
     transform: rotate(45deg);
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+    .welcome-text h1{
+      font-size: 16pt;
+    }
+
+    .welcome-text p{
+      font-size: 10pt;
+    }
+    .turtle-img {
+      transition-duration: 700ms;
+      transition: transform 700ms ease-in-out;
+      border: solid 2px;
+      width: 35%;
+      max-width: 40%;
+      height: auto;
+    }
+
+    .turtle-div{
+      margin-top: 1%;
+    }
   }

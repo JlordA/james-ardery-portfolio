@@ -5,12 +5,19 @@ function Welcome() {
     <div className="welcome-div">
       <div className="welcome-text">
         <h1>Hello World!</h1>
-        <h4 style={{color: 'grey'}}>
+        <p>
           Welcome to my website. I am a budding software engineer and musician
           trying to find the tie that binds 🤔
-        </h4>
+        </p>
       </div>
       <div className="turtle-div">
+        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
         <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
         <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
         <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
