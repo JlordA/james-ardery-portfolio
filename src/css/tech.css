@@ -1,0 +1,33 @@
+.tech-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .tech-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12pt;
+    color: #505050;
+    text-shadow: 0.5px 0.5px white;
+  }
+  
+  .tech-modal-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .app-img-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .app-img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+  }

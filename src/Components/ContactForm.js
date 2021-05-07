@@ -1,4 +1,5 @@
 import emailjs from "emailjs-com";
+import "../css/contactform.css"
 
 function ContactForm() {
   function sendEmail(e) {

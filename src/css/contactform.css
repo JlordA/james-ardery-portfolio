@@ -1,0 +1,45 @@
+
+.contact-div {
+    max-height: 80%;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-text {
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 60vw;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 2%;
+    border: solid 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #d6a9a9;
+  }
+  
+  .form-button {
+    background-color: #bebebe;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 10px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .contact-label {
+    margin-top: 20px;
+    color: #505050;
+  }

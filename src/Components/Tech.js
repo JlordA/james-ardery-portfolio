@@ -2,6 +2,7 @@ import { useState } from "react";
 import RollorHeroModal from "./Modal/RollorHeroModal";
 import PettoModal from "./Modal/PettoModal";
 import JokesOnUsModal from "./Modal/JokesOnUsModal";
+import "../css/tech.css"
 
 function Tech() {
   const [rollModalState, setRollModalState] = useState(false);

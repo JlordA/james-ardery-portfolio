@@ -1,3 +1,5 @@
+import "../css/welcome.css"
+
 function Welcome() {
   return (
     <div className="welcome-div">

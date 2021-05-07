@@ -1,0 +1,32 @@
+.welcome-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .welcome-text {
+    width: 60vw;
+    font-family: "Josefin Sans", sans-serif;
+    color: #505050;
+    text-shadow: 0.5px 0.5px white;
+  }
+  
+  .turtle-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+  }
+  
+  .turtle-img {
+    transition-duration: 700ms;
+    transition: transform 700ms ease-in-out;
+    border: solid 2px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .turtle-img:hover {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    transform: rotate(45deg);
+  }

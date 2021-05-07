@@ -75,40 +75,7 @@
   margin-bottom: 2%;
 }
 
-/* //// WECOME //// */
 
-.welcome-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.welcome-text {
-  width: 60vw;
-  font-family: "Josefin Sans", sans-serif;
-  color: #505050;
-  text-shadow: 0.5px 0.5px white;
-}
-
-.turtle-div {
-  display: flex;
-  flex-wrap: wrap;
-  width: 60vw;
-}
-
-.turtle-img {
-  transition-duration: 700ms;
-  transition: transform 700ms ease-in-out;
-  border: solid 2px;
-  max-width: 100%;
-  height: auto;
-}
-
-.turtle-img:hover {
-  -webkit-filter: invert(1);
-  filter: invert(1);
-  transform: rotate(45deg);
-}
 
 /* //// BIO //// */
 .bio-text {
@@ -140,118 +107,7 @@
   align-items: center;
 }
 
-/* //// CONTACT FORM //// */
 
-.contact-div {
-  max-height: 80%;
-  max-width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact-text {
-  text-align: center;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 80vh;
-  width: 60vw;
-  font-family: "Josefin Sans", sans-serif;
-  margin-top: 2%;
-  border: solid 2px;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: #d6a9a9;
-}
-
-.form-button {
-  background-color: #bebebe;
-  font-family: "Josefin Sans", sans-serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 25px;
-  padding-left: 25px;
-  border-radius: 10px;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.contact-label {
-  margin-top: 20px;
-  color: #505050;
-}
-
-/* //// MUSIC STYLING //// */
-
-.music-div {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
-.music-text {
-  width: 25vw;
-  margin-right: 10px;
-  color: #505050;
-  text-shadow: 0.5px 0.5px white;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.iframe-div {
-  margin-left: 15px;
-  width: 75vw;
-}
-
-.music-iframe {
-  border: 0;
-  left: 0;
-  max-width: 100%;
-}
-
-/* //// TECH STYLING //// */
-
-.tech-div {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-.tech-text {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 12pt;
-  color: #505050;
-  text-shadow: 0.5px 0.5px white;
-}
-
-.tech-modal-div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.app-img-div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.app-img {
-  max-width: 100%;
-  height: auto;
-  box-shadow: 5px 5px 5px grey;
-  border-radius: 10px;
-}
 
 /* //// MODAL STYLING //// */
 

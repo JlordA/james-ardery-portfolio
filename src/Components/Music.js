@@ -1,3 +1,6 @@
+import "../css/music.css"
+
+
 function Music() {
   return (
     <div className="music-div">
