@@ -1,3 +1,5 @@
+import "../../css/modal.css"
+
 function RollorHeroModal(props) {
   const clickHandler = () => {
     props.toggleState();

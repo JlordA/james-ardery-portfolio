@@ -1,0 +1,29 @@
+.bio-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16pt;
+    color: #505050;
+    text-align: center;
+  }
+  
+  .bio-img {
+    margin-top: 40px;
+    margin-left: 100px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+  }
+  
+  .bio-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

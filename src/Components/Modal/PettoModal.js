@@ -1,3 +1,5 @@
+import "../../css/modal.css"
+
 function PettoModal(props) {
   const clickHandler = () => {
       props.toggleState()

@@ -1,3 +1,6 @@
+import "../../css/modal.css"
+
+
 function JokesOnUsModal(props) {
   const clickHandler = () => {
     props.toggleState();
