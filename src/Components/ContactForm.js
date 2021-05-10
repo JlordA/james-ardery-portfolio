@@ -29,11 +29,11 @@ function ContactForm() {
       </div>
       <form className="contact-form" onSubmit={sendEmail}>
         <label className="contact-label">Name</label>
-        <input style={{ width: "150px" }} type="text" name="user_name" />
+        <input type="text" name="user_name" />
         <label className="contact-label">Email</label>
         <input type="email" name="user_email" />
         <label className="contact-label">Message</label>
-        <textarea style={{ width: "600px", height: "600px" }} name="message" />
+        <textarea name="message" />
         <input className="form-button" type="submit" value="SEND" />
       </form>
     </div>

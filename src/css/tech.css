@@ -24,10 +24,29 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  .app-img-div p{
+    color: grey;
+    font-style: italic;
+  }
   
   .app-img {
     max-width: 100%;
     height: auto;
     box-shadow: 5px 5px 5px grey;
     border-radius: 10px;
+  }
+
+  .app-container{
+    max-width: 550px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .tech-text h1{
+      font-size: 18pt;
+    }
+
+    .app-img-div p{
+      font-size: 10px;
+    }
   }

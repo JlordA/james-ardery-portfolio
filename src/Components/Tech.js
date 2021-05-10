@@ -37,7 +37,7 @@ function Tech() {
           <JokesOnUsModal toggleState={toggleJokeModal} />
         </div>
         <div className="app-img-div">
-          <div style={{ maxWidth: 550}}>
+          <div className="app-container">
             <img
               onClick={() => toggleRollorHeroModal()}
               value={rollModalState}
@@ -45,29 +45,29 @@ function Tech() {
               src="image/rollorhero.png"
               alt="rollorhero"
             />
-            <p style={{ color: "grey", fontStyle: "italic" }}>
+            <p>
               Roll or Hero - React, Redux, Rails
             </p>
           </div>
-          <div style={{ maxWidth: 550}}>
+          <div className="app-container">
             <img
               onClick={() => togglePettoModal()}
               className="app-img"
               src="image/petto.png"
               alt="petto"
             />
-            <p style={{ color: "grey", fontStyle: "italic" }}>
+            <p>
               Petto - JavaScript, Rails
             </p>
           </div>
-          <div style={{ maxWidth: 550}}>
+          <div className="app-container">
             <img
               onClick={() => toggleJokeModal()}
               className="app-img"
               src="image/JokesonUs.png"
               alt="jokesonus"
             />
-            <p style={{ color: "grey", fontStyle: "italic" }}>
+            <p>
               Jokes On Us - Rails
             </p>
           </div>

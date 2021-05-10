@@ -30,10 +30,13 @@
 
   .contact-form input{
     border-radius: 5px;
+    width: 150px;
   }
 
   .contact-form textarea{
     border-radius: 5px;
+    width: 600px;
+    height: 600px;
   }
   
   .form-button {
@@ -46,10 +49,24 @@
     padding-right: 25px;
     padding-left: 25px;
     border-radius: 10px;
+    color: #505050;
     font-family: "Josefin Sans", sans-serif;
+    box-shadow: 2px 2px 5px grey;
   }
   
   .contact-label {
     margin-top: 20px;
     color: #505050;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .contact-form textarea{
+      border-radius: 5px;
+      width: 150px;
+      height: 300px;
+    }
+
+    .contact-text h1{
+      font-size: 18pt;
+    }
   }
