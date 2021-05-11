@@ -14,6 +14,10 @@
     text-shadow: 0.5px 0.5px white;
     font-family: "Josefin Sans", sans-serif;
   }
+
+  .music-text p{
+    color: grey;
+  }
   
   .iframe-div {
     margin-left: 15px;
@@ -23,5 +27,32 @@
   .music-iframe {
     border: 0;
     left: 0;
+    width: 300px;
     max-width: 100%;
+    height: 475px;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .music-div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .music-iframe {
+      width: 275px;
+      margin: 1%;
+      margin-left: 1%;
+    }
+
+    .music-text{
+      width: 275px;
+    }
+    .music-text h1{
+      font-size: 18pt;
+    }
+
+    .music-text p{
+      font-size: 10pt;
+    }
   }

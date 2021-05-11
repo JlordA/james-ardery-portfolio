@@ -7,7 +7,6 @@ function Bio() {
         <img className="bio-img" src="image/portrait.jpg" alt="portrait" />
       </div>
       <div className="bio-text">
-        {/* <h1>Hello Me!</h1> */}
         <p>
           My name is James Ardery and I am a budding software
           engineer with a background in music and event production. I was born

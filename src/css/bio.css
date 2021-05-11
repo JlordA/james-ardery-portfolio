@@ -32,9 +32,6 @@
   }
 
   @media only screen and (max-width: 600px) {
-    .bio-text h1{
-      font-size: 18pt;
-    }
 
     .bio-text p{
       font-size: 10pt;
