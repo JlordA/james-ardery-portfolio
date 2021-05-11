@@ -11,6 +11,10 @@
     color: #505050;
     text-align: center;
   }
+
+  .bio-text p{
+    color: grey;
+  }
   
   .bio-img {
     margin-top: 40px;
@@ -26,4 +30,32 @@
     justify-content: center;
     align-items: center;
   }
-  
+
+  @media only screen and (max-width: 600px) {
+    .bio-text h1{
+      font-size: 18pt;
+    }
+
+    .bio-text p{
+      font-size: 10pt;
+    }
+
+    .bio-img {
+      margin: .5%;
+      margin-left: 0%;
+      margin-top: 2%;
+      margin-bottom: 0%;
+      width: 275px;
+      box-shadow: 2.5px 2.5px 2.55px grey;
+    }
+
+    .bio-component{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bio-text{
+      margin: 0%;
+      margin-top: 0%;
+    }
+  }

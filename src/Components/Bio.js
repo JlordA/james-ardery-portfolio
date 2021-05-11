@@ -7,8 +7,8 @@ function Bio() {
         <img className="bio-img" src="image/portrait.jpg" alt="portrait" />
       </div>
       <div className="bio-text">
-        <h1>Hello Me!</h1>
-        <p style={{color: 'grey'}}>
+        {/* <h1>Hello Me!</h1> */}
+        <p>
           My name is James Ardery and I am a budding software
           engineer with a background in music and event production. I was born
           in 1984 and am originally from Louisville Kentucky. I have spent the
@@ -17,7 +17,7 @@ function Bio() {
           sound engineer. I also spent many years on the road as a touring
           musician and lead singer/guitarist of a rock band.
         </p>
-        <p style={{color: 'grey'}}>
+        <p>
           Most recently I completed a software engineering bootcamp at Flatiron
           School that focused on the stacks React, Javascript, and Ruby on
           Rails. The apps built during my time at Flatrion listed in the tech

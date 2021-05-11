@@ -38,6 +38,12 @@
 
   @media only screen and (max-width: 600px) {
     
+    .welcome-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     .welcome-text h1{
       font-size: 18pt;
     }
@@ -54,7 +60,11 @@
       height: auto;
     }
 
+    .welcome-text {
+      text-align: center;
+    }
     .turtle-div{
       margin-top: 1%;
+      margin-left: 80px;
     }
   }
