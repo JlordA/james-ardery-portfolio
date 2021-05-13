@@ -4,16 +4,10 @@
   height: 100vh;
 }
 
-.navbar-div {
-  max-width: 20vw;
-  max-height: 100vh;
-}
-
 .tab-div {
-  width: 100%;
+  width: 82%;
   height: 100%;
-  overflow: auto;
-  background-color: whitesmoke;
+  overflow: scroll;
 }
 
 /* cellphone */
@@ -26,14 +20,9 @@
   }
   
   .tab-div {
-    width: 100%;
+    width: 75%;
     height: 100%;
-    overflow: auto;
-    background-color: whitesmoke;
+    overflow: scroll;
   }
 
-  .navbar-div {
-    max-width: 20vw;
-    max-height: 100vh; 
-  }
 }

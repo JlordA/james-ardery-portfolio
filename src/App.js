@@ -12,7 +12,6 @@ import ContactForm from "./Components/ContactForm";
 function App() {
   return (
     <div className="app-div">
-      <div className="navbar-div"></div>
       <Navbar/>
       <div className="tab-div">
       <Switch>

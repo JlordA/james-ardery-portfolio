@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 100%;
     margin-left: 2%;
     margin-right: 2%;
   }
@@ -38,7 +39,7 @@
   }
 
   .app-container{
-    max-width: 550px;
+    width: 38vw;
   }
 
   @media only screen and (max-width: 600px) {
@@ -48,5 +49,9 @@
 
     .app-img-div p{
       font-size: 10px;
+    }
+
+    .app-container {
+      width: 85%;
     }
   }

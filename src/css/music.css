@@ -46,7 +46,8 @@
     }
 
     .music-text{
-      width: 275px;
+      width: 270px;
+      margin-left: 5%;
     }
     .music-text h1{
       font-size: 18pt;
