@@ -59,3 +59,27 @@
     top: 0;
     right: 0;
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .modalInner {
+      width: 550px;
+      margin-top: 0%;
+    }
+
+    .modalImage iframe{
+      width: 200px;
+    }
+
+    .modalText h1{
+      font-size: 18pt;
+    }
+
+    .modalText p{
+      font-size: 10pt;
+    }
+
+    .modalButton{
+      font-size: 10px;
+    }
+  }
