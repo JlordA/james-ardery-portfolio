@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70vw;
-    height: 100vh;
+    width: 82%;
+    height: 100%;
   }
   
   .welcome-text {
-    width: 60vw;
+    width: 60%;
     font-family: "Josefin Sans", sans-serif;
     color: #505050;
     text-shadow: 0.5px 0.5px white;
+    text-align: center;
   }
 
   .welcome-text p{
@@ -20,7 +21,8 @@
   .turtle-div {
     display: flex;
     flex-wrap: wrap;
-    width: 65vw;
+    width: 85%;
+    margin-left: 35%;
   }
   
   .turtle-img {

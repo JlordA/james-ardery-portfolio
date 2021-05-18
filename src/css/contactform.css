@@ -37,8 +37,14 @@
     border-radius: 5px;
     width: 600px;
     height: 600px;
+    border: solid 2px;
   }
   
+  .contact-label {
+    font-size: 14pt;
+    padding-bottom: 3px;
+  }
+
   .form-button {
     background-color: #bebebe;
     font-family: "Josefin Sans", sans-serif;

@@ -1,7 +1,7 @@
 .nav-div {
     align-items: left;
     max-width: 17%;
-    min-height: 100%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 20px;
