@@ -11,11 +11,11 @@ function YumYumModal(props) {
         <iframe
           width="500"
           height="400"
-          src="https://www.youtube.com/embed/vBt_O-vvY1o"
+          src="https://www.youtube.com/embed/6ZvU7gvhLv4"
           title="YouTube video player"
-          frameBorder="0"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+          allowfullscreen
         ></iframe>
       </div>
       <div className="modalText">
