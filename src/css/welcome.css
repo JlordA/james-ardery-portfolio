@@ -1,75 +1,84 @@
 .welcome-div {
+  animation: fadeInAnimation ease 1.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 82%;
+  height: 100%;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.welcome-text {
+  width: 60%;
+  font-family: "Josefin Sans", sans-serif;
+  color: #505050;
+  text-shadow: 0.5px 0.5px white;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.welcome-text p {
+  color: grey;
+}
+
+.turtle-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin-left: 35%;
+}
+
+.turtle-img {
+  transition-duration: 700ms;
+  transition: transform 700ms ease-in-out;
+  border: solid 2px;
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+}
+
+.turtle-img:hover {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome-div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 82%;
-    height: 100%;
-  }
-  
-  .welcome-text {
-    width: 60%;
-    font-family: "Josefin Sans", sans-serif;
-    color: #505050;
-    text-shadow: 0.5px 0.5px white;
-    margin-left: 20%;
-    margin-top: 2%;
   }
 
-  .welcome-text p{
-    color: grey;
+  .welcome-text h1 {
+    font-size: 18pt;
   }
-  
-  .turtle-div {
-    display: flex;
-    flex-wrap: wrap;
-    width: 85%;
-    margin-left: 35%;
+
+  .welcome-text p {
+    font-size: 10pt;
   }
-  
   .turtle-img {
     transition-duration: 700ms;
     transition: transform 700ms ease-in-out;
     border: solid 2px;
-    width: 20%;
-    max-width: 100%;
+    width: 35%;
+    max-width: 40%;
     height: auto;
   }
-  
-  .turtle-img:hover {
-    -webkit-filter: invert(1);
-    filter: invert(1);
-    transform: rotate(45deg);
+
+  .welcome-text {
+    text-align: center;
   }
-
-  @media only screen and (max-width: 600px) {
-    
-    .welcome-div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .welcome-text h1{
-      font-size: 18pt;
-    }
-
-    .welcome-text p{
-      font-size: 10pt;
-    }
-    .turtle-img {
-      transition-duration: 700ms;
-      transition: transform 700ms ease-in-out;
-      border: solid 2px;
-      width: 35%;
-      max-width: 40%;
-      height: auto;
-    }
-
-    .welcome-text {
-      text-align: center;
-    }
-    .turtle-div{
-      margin-top: 1%;
-      margin-left: 80px;
-    }
+  .turtle-div {
+    margin-top: 1%;
+    margin-left: 80px;
   }
+}
