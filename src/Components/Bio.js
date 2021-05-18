@@ -4,7 +4,7 @@ function Bio() {
   return (
     <div className="bio-component">
       <div>
-        <img className="bio-img" src="image/portrait.jpg" alt="portrait" />
+        <img className="bio-img" src="image/portraitsmall.jpg" alt="portrait" />
       </div>
       <div className="bio-text">
         <p>

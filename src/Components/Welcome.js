@@ -11,22 +11,22 @@ function Welcome() {
         </p>
       </div>
       <div className="turtle-div">
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
-        <img className="turtle-img" src="image/bioturtle.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
+        <img className="turtle-img" src="image/smallerturtleswing.gif" alt="bioturtle" />
       </div>
     </div>
   );

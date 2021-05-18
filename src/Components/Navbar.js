@@ -28,19 +28,19 @@ function Navbar() {
       <div className="network-div">
         <a href="https://github.com/JlordA" target="_blank" rel="noopener noreferrer">
           <img
-            src="image/githubicon.png"
+            src="image/githubiconsmall.png"
             alt="github"
           />
         </a>
         <a href="https://james-ardery.medium.com/" target="_blank" rel="noopener noreferrer">
           <img
-            src="image/Mediumicon.png"
+            src="image/mediumiconsmall.png"
             alt="medium"
           />
         </a>
         <a href="https://www.linkedin.com/in/jamesardery/" target="_blank" rel="noopener noreferrer">
           <img
-            src="image/linkedinicon.png"
+            src="image/linkediniconsmall.png"
             alt="linkedin"
           />
         </a>

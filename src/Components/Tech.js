@@ -52,7 +52,7 @@ function Tech() {
               value={yumModalState}
               style={{ width: 650}}
               className="app-img"
-              src="image/yumyumpicture.png"
+              src="image/yumyumpicturesmall.png"
               alt="rollorhero"
             />
             <p>Yum Yum Fresh - React, Hooks, Rails, Bootstrap</p>
@@ -63,7 +63,7 @@ function Tech() {
               value={rollModalState}
               style={{ width: 650}}
               className="app-img"
-              src="image/rollpicture.png"
+              src="image/rollpicturesmall.png"
               alt="rollorhero"
             />
             <p>Roll or Hero - React, Redux, Rails</p>
@@ -73,7 +73,7 @@ function Tech() {
               onClick={() => togglePettoModal()}
               style={{ width: 650}}
               className="app-img"
-              src="image/pettopicture.png"
+              src="image/pettopicturesmall.png"
               alt="petto"
             />
             <p>Petto - JavaScript, Rails</p>
@@ -83,7 +83,7 @@ function Tech() {
               onClick={() => toggleJokeModal()}
               style={{ width: 650}}
               className="app-img"
-              src="image/JokesonUs.png"
+              src="image/jokespicturesmall.png"
               alt="jokesonus"
             />
             <p>Jokes On Us - Rails</p>
