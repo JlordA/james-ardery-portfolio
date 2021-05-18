@@ -11,7 +11,8 @@
     font-family: "Josefin Sans", sans-serif;
     color: #505050;
     text-shadow: 0.5px 0.5px white;
-    text-align: center;
+    margin-left: 20%;
+    margin-top: 2%;
   }
 
   .welcome-text p{
