@@ -1,7 +1,13 @@
+import { useState } from "react"
 import emailjs from "emailjs-com";
 import "../css/contactform.css"
 
 function ContactForm() {
+  const [name, setName] = useState()
+  const [email, setEmail] = useState()
+  const [subject, setSubject] = useState()
+  const [body, setBody] = useState()
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -22,6 +28,11 @@ function ContactForm() {
           alert("FAILED!"+error);
         }
       );
+      
+      setName("");
+      setEmail("");
+      setSubject("");
+      setBody("");
   }
 
   return (
@@ -31,13 +42,13 @@ function ContactForm() {
       </div>
       <form className="contact-form" onSubmit={sendEmail}>
         <label className="contact-label">Name</label>
-        <input type="text" name="user_name" />
+        <input value={name} type="text" name="user_name" />
         <label className="contact-label">Email</label>
-        <input type="email" name="user_email" />
+        <input value={email} type="email" name="user_email" />
         <label className="contact-label">Subject</label>
-        <input type="subject" name="subject" />
+        <input value={subject} type="subject" name="subject" />
         <label className="contact-label">Message</label>
-        <textarea name="message" />
+        <textarea value={body} name="message" />
         <input className="form-button" type="submit" value="SEND" />
       </form>
     </div>
