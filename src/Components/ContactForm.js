@@ -15,9 +15,11 @@ function ContactForm() {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Email sent successfully!");
         },
         (error) => {
           console.log(error.text);
+          alert("FAILED!"+error);
         }
       );
   }
@@ -32,6 +34,8 @@ function ContactForm() {
         <input type="text" name="user_name" />
         <label className="contact-label">Email</label>
         <input type="email" name="user_email" />
+        <label className="contact-label">Subject</label>
+        <input type="subject" name="subject" />
         <label className="contact-label">Message</label>
         <textarea name="message" />
         <input className="form-button" type="submit" value="SEND" />
