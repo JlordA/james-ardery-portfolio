@@ -1,11 +1,7 @@
 .music-div {
   animation: fadeInAnimation ease 1.5s;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  margin-top: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
   height: 100%;
   width: 100%;
   overflow: scroll;
@@ -23,6 +19,7 @@
 .music-text {
   width: 25vw;
   margin-right: 10px;
+  margin-left: 15px;
   color: #505050;
   text-shadow: 0.5px 0.5px white;
   font-family: "Josefin Sans", sans-serif;
@@ -35,6 +32,10 @@
 .iframe-div {
   margin-left: 15px;
   width: 75vw;
+}
+
+.iframe-div h1{
+  color: #505050;
 }
 
 .iframe-div iframe{
