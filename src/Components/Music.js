@@ -53,6 +53,7 @@ function Music() {
         </p>
       </div>
       <div className="iframe-div">
+        <h1>Projects</h1>
         <iframe
           className="music-iframe"
           scrolling="no"
