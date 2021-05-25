@@ -3,7 +3,7 @@ import "../css/bio.css"
 function Bio() {
   return (
     <div className="bio-component">
-      <div>
+      <div className="profile-image-div">
         <img className="bio-img" src="image/portraitsmall.jpg" alt="portrait" />
       </div>
       <div className="bio-text">

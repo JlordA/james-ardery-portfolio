@@ -13,7 +13,7 @@ function YumYumModal(props) {
           height="400"
           src="https://www.youtube.com/embed/6ZvU7gvhLv4"
           title="YouTube video player"
-          frameborder="0"
+          frameborder="1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>

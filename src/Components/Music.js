@@ -57,7 +57,7 @@ function Music() {
         <iframe
           className="music-iframe"
           scrolling="no"
-          frameBorder="no"
+          frameBorder="0"
           allow="autoplay"
           title="LUSHES"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23341535&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
@@ -65,7 +65,7 @@ function Music() {
         <iframe
           className="music-iframe"
           scrolling="no"
-          frameBorder="no"
+          frameBorder="0"
           allow="autoplay"
           title="Tolken"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1241750056&color=%23849484&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
@@ -73,7 +73,7 @@ function Music() {
         <iframe
           className="music-iframe"
           scrolling="no"
-          frameBorder="no"
+          frameBorder="0"
           allow="autoplay"
           title="RoundAbout"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1241762632&color=%239ba670&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"

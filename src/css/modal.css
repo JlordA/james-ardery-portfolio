@@ -27,6 +27,10 @@
     width: 900px;
     max-width: calc(100% - 60px);
     margin: auto;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
     display: flex;
     flex-direction: row;
     color: white;
@@ -36,6 +40,10 @@
   
   .modalImage img {
     width: 100%;
+  }
+
+  .modalImage iframe{
+    border: 1px solid white;
   }
   
   .modalText {

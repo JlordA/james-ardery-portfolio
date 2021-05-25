@@ -40,6 +40,7 @@
 
 .iframe-div iframe{
   margin: 5px;
+  border: 1px solid black;
 }
 
 .music-iframe {
