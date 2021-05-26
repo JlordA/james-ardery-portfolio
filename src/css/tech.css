@@ -1,7 +1,8 @@
 .tech-div {
     animation: fadeInAnimation ease 1.5s;
     display: flex;
-    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
@@ -22,6 +23,7 @@
     font-size: 12pt;
     color: #505050;
     text-shadow: 0.5px 0.5px white;
+    padding-left: 1%;
   }
   
   .tech-modal-div {
@@ -54,8 +56,12 @@
 
   @media only screen and (max-width: 600px) {
 
+    .tech-text {
+      padding-left: 8%;
+    }
+
     .tech-text h1{
-      font-size: 18pt;
+      font-size: 16pt;
     }
 
     .app-img-div p{

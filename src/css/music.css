@@ -58,10 +58,16 @@
   }
   .iframe-div {
     margin-bottom: 0;
+    margin-left: 14%;
+  }
+
+  .iframe-div h1 {
+    font-size: 16pt;
+    padding-left: 1%;
   }
 
   .music-iframe {
-    width: 275px;
+    width: 260px;
     margin: 1%;
     margin-left: 1%;
   }

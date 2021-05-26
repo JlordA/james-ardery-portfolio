@@ -30,7 +30,7 @@ function Tech() {
   return (
     <div className="tech-div">
       <div className="tech-text">
-        <h1>RECENT PROJECTS</h1>
+        <h1 style={{ textAlign: "left" }}>Recent Projects</h1>
       </div>
       <div className="tech-modal-div">
         <div className={`modalBackground modalShowing-${yumModalState}`}>

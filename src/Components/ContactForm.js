@@ -37,9 +37,9 @@ function ContactForm() {
 
   return (
     <div className="contact-div">
-      <div className="contact-text">
+      {/* <div className="contact-text">
         <h1>Hello You!</h1>
-      </div>
+      </div> */}
       <form className="contact-form" onSubmit={sendEmail}>
         <label className="contact-label">Name</label>
         <input value={name} type="text" name="user_name" />
